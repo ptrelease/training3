@@ -14,6 +14,11 @@ def goodbye():
   b = 'world'
   return a+b
   
+@app.route('/whattree')
+def tree():
+  return 'oak'
+  
+  
    
 if __name__ == '__main__':
   app.run(host='0.0.0.0', debug=True)
