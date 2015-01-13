@@ -8,7 +8,7 @@ def hello():
   return a+b
 
 
-@app.route('/goodbye and stuff')
+@app.route('/goodbye and stuff ok')
 def goodbye():
   a = 'goodbye'
   b = 'world'
